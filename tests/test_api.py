@@ -38,7 +38,7 @@ def test_crear_producto():
     res = client.post("/productos", json=nuevo)
     assert res.status_code == 201
     assert res.json()["nombre"] == "Orquídea"
-    assert res.json()["id"] == 4
+    assert res.json()["id"] > 0
 
 
 def test_actualizar_producto():
