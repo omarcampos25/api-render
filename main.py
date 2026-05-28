@@ -11,9 +11,21 @@ app = FastAPI(
 
 # ── Base de datos simulada en memoria ──
 productos = [
-    {"id": 1, "nombre": "Rosa roja",    "precio": 25.0, "stock": 100},
-    {"id": 2, "nombre": "Tulipán",      "precio": 18.0, "stock": 50},
-    {"id": 3, "nombre": "Girasol",      "precio": 15.0, "stock": 80},
+    {"id": 1,  "nombre": "Rosa roja",        "precio": 25.0,  "stock": 100},
+    {"id": 2,  "nombre": "Tulipán",          "precio": 18.0,  "stock": 50},
+    {"id": 3,  "nombre": "Girasol",          "precio": 15.0,  "stock": 80},
+    {"id": 4,  "nombre": "Orquídea",         "precio": 45.0,  "stock": 30},
+    {"id": 5,  "nombre": "Lilium",           "precio": 22.0,  "stock": 60},
+    {"id": 6,  "nombre": "Calla",            "precio": 28.0,  "stock": 40},
+    {"id": 7,  "nombre": "Peonia",           "precio": 35.0,  "stock": 25},
+    {"id": 8,  "nombre": "Lavanda",          "precio": 12.0,  "stock": 90},
+    {"id": 9,  "nombre": "Margarita",        "precio": 10.0,  "stock": 120},
+    {"id": 10, "nombre": "Jazmín",           "precio": 20.0,  "stock": 70},
+    {"id": 11, "nombre": "Hortensia",        "precio": 32.0,  "stock": 35},
+    {"id": 12, "nombre": "Clavel",           "precio": 8.0,   "stock": 150},
+    {"id": 13, "nombre": "Rosa blanca",      "precio": 25.0,  "stock": 100},
+    {"id": 14, "nombre": "Fresia",           "precio": 16.0,  "stock": 55},
+    {"id": 15, "nombre": "Bouquet mixto",    "precio": 65.0,  "stock": 20},
 ]
 
 

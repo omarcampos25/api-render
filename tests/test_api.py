@@ -19,7 +19,7 @@ def test_health():
 def test_listar_productos():
     res = client.get("/productos")
     assert res.status_code == 200
-    assert res.json()["total"] == 3
+    assert res.json()["total"] == 15
 
 
 def test_obtener_producto():
