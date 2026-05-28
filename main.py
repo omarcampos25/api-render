@@ -6,7 +6,7 @@ import os
 app = FastAPI(
     title="API de Prueba",
     description="API básica con FastAPI desplegada en Render",
-    version="1.0.0"
+    version="1.0.1"
 )
 
 # ── Base de datos simulada en memoria ──
